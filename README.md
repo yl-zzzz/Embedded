@@ -16,29 +16,29 @@
   CoAP Client/UI : CoAP 클라이언트와 UI, 센서와 실행, 상황 모니터링<br>
 
 # 3. 하드웨어 구현
-  -PIR: Ground, GPIO 0, 5V
-  -LCD Display: Ground, 5V, I2C SDA(GPIO 8), I2C SCL(GPIO 9)
+  - PIR: Ground, GPIO 0, 5V
+  - LCD Display: Ground, 5V, I2C SDA(GPIO 8), I2C SCL(GPIO 9)
   - DHT11(temperature): Ground, 3.3V , GPIO 15
 ![image](https://user-images.githubusercontent.com/71144019/169632866-84726107-6baa-4abb-9e93-bd1f4babb281.png)<br>
 ![image](https://user-images.githubusercontent.com/71144019/169632869-6539aaf5-2470-41e4-bbb1-1665a954d516.png)<br>
 
 
-# 3. 프로젝트 과정
-### 1. 공공 데이터 포털에서 실시간 데이터 발급 
-### 2. MongoDB에 데이터 저장
-### 3. Publish서버가 토픽 발행하고 Broker 서버로 전달
-### 4. Subscriber가 토픽 구독하면 Broker 서버가 데이터 전달
-### 5. html에 실시간 정보 출력
- 
-# 3. 결과 화면
-![image02](https://user-images.githubusercontent.com/71144019/122520907-2bc11500-d04f-11eb-9fb0-58c3ce8b5841.png)
+# 4. 소프트웨어 구현
+- Mini_server.java
+ - CoAP client와 연결하고, 동작을 실행시킴.
+ - 서버에 PIR, LCD, Temperature 리소스를 추가함.
+ - PIR 센서의 Observe 옵션을 활성화하고, 1초마다 센서 값을 전달하도록 구현함.
 
-# 4. 데모 영상
+
+
+ 
+
+# 5. 데모 영상
 https://user-images.githubusercontent.com/71144019/169633159-790d5e15-7575-4bd6-af7a-95ee5a800ddc.mp4
 
 
 
-# 5. 프로젝트를 하면서 느낀점
+# 6. 프로젝트를 하면서 느낀점
  이 프로젝트를 하면서 라즈베리파이와 센서를 연결하는 법과 센서 값들을 읽어오는 방법을 배웠다.<br>
  라즈베리파이에 대해서 직접 회로도 연결해보고 배운점이 많아 성장할 수 있었던 프로젝트였다.<br>
  실제로 이러한 프로그램이 나온다면 위험한 냉동창고나 엘레베이터에 갖힌 사람들이 안전하게 나올 수 있을 것같다.<br>
