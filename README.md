@@ -24,7 +24,7 @@
 
 
 # 4. 소프트웨어 구현
-## Mini_server.java
+**Mini_server.java
  - CoAP client와 연결하고, 동작을 실행시킴.
  - 서버에 PIR, LCD, Temperature 리소스를 추가함.
  - PIR 센서의 Observe 옵션을 활성화하고, 1초마다 센서 값을 전달하도록 구현함.
