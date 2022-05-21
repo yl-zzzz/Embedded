@@ -14,7 +14,6 @@
   Temperature sensor : 밀폐된 장소의 온도를 측정하는 센서<br>
   CoAP 서버 : CoAP 통신을 사용한 Resource 관리<br>
   CoAP Client/UI : CoAP 클라이언트와 UI, 센서와 실행, 상황 모니터링<br>
-  ![image](https://user-images.githubusercontent.com/71144019/169632820-3d4db958-fe44-4d9e-a677-ec6993601fc7.png)
 
 # 3. 하드웨어 구현
   -PIR: Ground, GPIO 0, 5V
