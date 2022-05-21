@@ -34,8 +34,8 @@
 ![image02](https://user-images.githubusercontent.com/71144019/122520907-2bc11500-d04f-11eb-9fb0-58c3ce8b5841.png)
 
 # 4. 데모 영상
-https://youtu.be/QFmswJG9XbM
-![image](https://user-images.githubusercontent.com/71144019/169633092-1ac41c05-8f87-44a0-b8df-e7704c743e08.png)
+https://user-images.githubusercontent.com/71144019/169633159-790d5e15-7575-4bd6-af7a-95ee5a800ddc.mp4
+
 
 
 # 5. 프로젝트를 하면서 느낀점
