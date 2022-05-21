@@ -35,7 +35,8 @@
 
 # 4. 데모 영상
 https://youtu.be/QFmswJG9XbM
-![image](https://user-images.githubusercontent.com/71144019/169633054-83f8aa19-d9c0-407f-b2b6-7d83a0cdd5d7.png)
+![image](https://user-images.githubusercontent.com/71144019/169633092-1ac41c05-8f87-44a0-b8df-e7704c743e08.png)
+
 
 # 5. 프로젝트를 하면서 느낀점
  이 프로젝트를 하면서 라즈베리파이와 센서를 연결하는 법과 센서 값들을 읽어오는 방법을 배웠다.<br>
